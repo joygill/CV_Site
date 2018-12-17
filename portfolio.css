@@ -1,5 +1,5 @@
 html {
-    background-color: lightgray;
+    background-color: lightpink;
     font-family: 'Montserrat', sans-serif;
     
 }
@@ -93,7 +93,11 @@ header{
 h1{
     
     font-weight: bold;
-    text-align: center;
+   
+}
+h3{
+  color: darkblue;
+  
 }
 
 .section{
@@ -141,19 +145,17 @@ h1{
         line-height: 1.5;*/
  }
 
-a{
-    color: gray;
-    transition: color .25s;
-    
-   /* 
-    text-decoration: none;
-    */
 
+
+a{
+    color: blue;
+    transition: color .25s;
+    text-decoration: none;
 }
 
 a:hover{
     
-  color: lightgray;
+  color: darkblue;
 } 
 
 
