@@ -1,5 +1,5 @@
 html {
-    background-color: lightpink;
+    background-color: lightpink; 
     font-family: 'Montserrat', sans-serif;
     
 }
@@ -95,13 +95,31 @@ h1{
     font-weight: bold;
    
 }
+h2{
+
+  color: darkblue;
+  transition: color .15s;
+}
+
+h2:hover{
+color: coral;
+}
+
 h3{
   color: darkblue;
   
 }
-
-.section{
+div.recent{
     margin-bottom: 20px; 
+    display: none;
+}
+div.experience{
+    margin-bottom: 20px; 
+    display: none;
+}
+div.education{
+    margin-bottom: 20px; 
+    display: none;
 }
 .project {
     font-size: 20px; 
