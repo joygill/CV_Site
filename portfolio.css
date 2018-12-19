@@ -60,6 +60,10 @@ header{
     font-weight: 900;*/
     
 }
+div.about{
+    margin-bottom: 20px; 
+    display: none;
+}
 div.recent{
     margin-bottom: 20px; 
     display: none;
@@ -115,6 +119,10 @@ color: coral;
 h3{
   color: darkblue;
   
+}
+div.about{
+    margin-bottom: 20px; 
+    display: none;
 }
 div.recent{
     margin-bottom: 20px; 

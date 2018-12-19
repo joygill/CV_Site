@@ -21,3 +21,6 @@ $("h2.education").click(function() {
 	$("div.education").toggle();
 });
 
+$("h2.about").click(function() {
+	$("div.about").toggle();
+});
