@@ -76,6 +76,10 @@ div.education{
     margin-bottom: 20px; 
     display: none;
 }
+.description{
+    padding-bottom: 10px;
+    font-weight: bold;
+}
 
 
 /* Media Query for topnav */
@@ -104,16 +108,20 @@ div.education{
 h1{
     
     font-weight: bold;
+    border-bottom: 12px solid;
+    border-color: blue;
+    width: 20vw;
    
 }
 h2{
-
-  color: darkblue;
+  color: seashell ;
   transition: color .15s;
+  font-size: 26px;
+  margin-bottom: 5px;
 }
 
 h2:hover{
-color: coral;
+color: darkblue;
 }
 
 h3{
@@ -137,21 +145,22 @@ div.education{
     display: none;
 }
 .project {
-    font-size: 20px; 
+    font-size: 24px; 
     font-weight: bold;
 }
 .role{
-    font-size: 16px; 
+    font-size: 18px; 
     font-weight: bold;
 }
 .info{
 
-    font-size:14px;
+    font-size:16px;
     font-style: italic;
     padding-bottom: 10px;
 }
 .description{
-    padding-bottom: 10px;
+    padding-bottom: 12px;
+    font-style: bold;
 }
 
 
