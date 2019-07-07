@@ -1,7 +1,5 @@
 html {
-    background-color: lightpink; 
-    font-family: 'Montserrat', sans-serif;
-    
+   
 }
 
 * {
@@ -15,71 +13,98 @@ html {
 
 body{
 
-    font-size: 16px;
-    /* display: flex;
-    flex-direction: row;
-    justify-content:center;
-    
-    text-align: justify; 
-            
-            font-weight: 900;
-            text-transform: uppercase;
-            line-height: 1.5;
-    
-    padding: 50px 0px 0px 0; */
-    
+font-family: 'Montserrat', sans-serif;
+
+background-color: rgb(194, 39, 145);
 }
 
 
 
-header{
+section.main {
 
-  /* position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;  */ 
+width: 90vw;
+max-width: 620px; 
+margin: 30px 3vw; 
+background-color: whitesmoke; 
 
-}
+display: flex;
+flex-flow: column;
+align-items: stretch;
 
-.frame{
-    width: 90vw;
-  max-width: 750px;
-  margin: 20px 3vw;
 }
 
+div.job{
+border-bottom: solid firebrick;
+margin-bottom: 10px;
+margin-left: 10px;
 
-.topnav {
-    
-  /*  
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+}
 
-    
-    font-size: 32px;
-    font-weight: 900;*/
-    
+h2.title{
+margin-bottom: 5px;
+margin-left: 10px;
+border-bottom: solid firebrick 10px;
+
+
 }
-div.about{
-    margin-bottom: 20px; 
-    display: none;
-}
-div.recent{
-    margin-bottom: 20px; 
-    display: none;
-}
-div.experience{
-    margin-bottom: 20px; 
-    display: none;
-}
-div.education{
-    margin-bottom: 20px; 
-    display: none;
-}
-.description{
-    padding-bottom: 10px;
+
+#jobName{
+    /*font-size:20px;*/
+    text-transform: uppercase;
+    font-weight: bold; 
+    }
+
+.jobTitle{
+    /*font-size: 20px; */
     font-weight: bold;
 }
+
+.jobDescription{
+    color:black;
+    /*padding-bottom: 10px;*/
+    margin-bottom: 10px;
+
+
+}
+
+p {
+    padding-top: 10px;      
+   
+ }
+
+/* this is for links within paragraphs */
+p a{
+font-weight:bold;
+
+}
+.jobSkills{
+    font-weight: bold;
+}
+
+
+section.portfolio {
+
+
+   
+    height: 100%;
+    width: 50%;
+    margin: 30px;
+     border-left: solid green 15px; 
+    /*background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    object-position: center;*/
+    /* border-bottom: solid 15px rgb(134, 245, 247); */
+    float: right;
+
+
+}
+
+
+   
+
+
+   
 
 
 /* Media Query for topnav */
@@ -88,176 +113,72 @@ div.education{
 
 @media(max-width:600px){
     
- /*   .topnav a {
-        display: block;
-        font-size: 12px;
+section.main {
+
+width: 90vw;
+max-width: 620px; 
+margin: 30px 3vw; 
+    
+
+display: flex;
+flex-flow: column;
+align-items: stretch;
+
+}
+
+div.job{
+border-bottom: solid firebrick;
+margin-bottom: 10px;
+margin-left: 10px;
+
+}
+
+h2.title{
+margin-bottom: 5px;
+margin-left: 10px;
+border-bottom: solid firebrick 10px;
+s
+
+}
+
+#jobName{
+    /*font-size:20px;*/
+    text-transform: uppercase;
+    font-weight: bold; 
     }
-    body {
-        display: block;
-        font-size: 8px;
-    }
-    footer a {
-         display: block;
-        font-size: 12px;
-    }*/
-    
+
+.jobTitle{
+    /*font-size: 20px; */
+    font-weight: bold;
 }
 
+.jobDescription{
+    color:black;
+    /*padding-bottom: 10px;*/
+    margin-bottom: 10px;
 
 
-h1{
-    
-    font-weight: bold;
-    border-bottom: 12px solid;
-    border-color: coral;
-    width: 20vw;
+}
+
+p {
+    padding-top: 10px;      
    
-}
-h2{
-  color: seashell ;
-  transition: color .15s;
-  font-size: 26px;
-  margin-bottom: 5px;
-}
-
-h2:hover{
-color: darkblue;
-}
-
-h3{
-  color: darkblue;
-  
-}
-
-li{
-
-  margin-bottom: 8px;
-}
-
-ul{
-
-  list-style-type: circle;
-  
-    margin-left: 22px;
-}
-div.about{
-    margin-bottom: 20px; 
-    display: none;
-}
-div.recent{
-    margin-bottom: 20px; 
-    display: none;
-}
-div.experience{
-    margin-bottom: 20px; 
-    display: none;
-}
-div.education{
-    margin-bottom: 20px; 
-    display: none;
-}
-.project {
-    font-size: 24px; 
-    font-weight: bold;
-}
-.role{
-    font-size: 18px; 
-    font-weight: bold;
-}
-.info{
-
-    font-size:16px;
-    font-style: italic;
-    padding-bottom: 10px;
-}
-.description{
-  font-size: 22px;
-    padding-bottom: 12px;
-    font-style: bold;
-}
-
-img{
-
-  width:75vw;
-
-}
-
-section{
-
-
-}
-.imagestream {
-    
-/*   position: absolute;
-     top:50%;
-    left:50%;
-     transform: translate(-50%, -50%);
-   
-    
-    border: outset purple 10px;
-    margin: 80px 0px 0px 0px; */  
-} 
-
-
-
-.statement {
-        width: 800px;
-        text-align: justify; 
-        font-size: 24px;
-        font-weight: 900;
-        text-transform: uppercase;
-        line-height: 1.5;*/
  }
 
+/* this is for links within paragraphs */
+p a{
+font-weight:bold;
 
-
-a{
-    color: blue;
-    transition: color .25s;
-    text-decoration: none;
+}
+.jobSkills{
+    font-weight: bold;
 }
 
-a:hover{
-    
-  color: darkblue;
-} 
-
-
-/* footer {
-   display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    font-size: 32px;
-    font-weight: 900;
-
-    position: fixed;
-    width: 100%;
-    bottom: 2.5%;
-
-} */
 
 
 
-/* The following is the scrollbar */ 
-/* width */
 
-::-webkit-scrollbar {
-   /* width: 20px;*/
-}
 
-/* Track */
-::-webkit-scrollbar-track {
-   /*  box-shadow: inset 0 0 5px grey; 
-   border-radius: 10px; */
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-    /* background: red; 
-    border-radius: 10px; */
-}
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    /* background: #b30000;  */
-}
+
+
